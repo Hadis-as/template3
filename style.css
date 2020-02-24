@@ -1,0 +1,289 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "MyFont", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            }
+            /*             
+            @font-face {
+                font-family: MyFont;
+                src: url(bnazanin.ttf)
+            }
+             */
+            
+            .header {
+                margin: 0 auto;
+                width: 100%
+            }
+            
+            .container {
+                position: relative;
+                background: url("container.png") no-repeat scroll;
+                width: 100%;
+                height: 70vh;
+                background-position: center;
+                background-size: cover;
+                font-size: 20px
+            }
+            
+            .logo {
+                float: left;
+                text-transform: uppercase;
+                margin: 20px 90px
+            }
+            
+            .menu {
+                float: right;
+                margin: 20px 90px
+            }
+            
+            .container .menu ul li {
+                display: inline-block
+            }
+            
+            .container .menu ul li a {
+                padding: 12px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white
+            }
+            
+            .container h2 {
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 30%;
+                font-size: 45px
+            }
+            
+            .clear-fix {
+                clear: both;
+            }
+            
+            .container p:nth-of-type(2) {
+                position: absolute;
+                top: 60%;
+                left: 40%
+            }
+            
+            hr {
+                color: white;
+                position: absolute;
+                top: 62%;
+                left: 30%
+            }
+            
+            .button {
+                background-color: #5bb3a3;
+                color: white;
+                text-transform: uppercase;
+                position: absolute;
+                top: 95%;
+                left: 45%;
+                padding: 13px 35px;
+                box-shadow: 2px 2px 1px rgb(17, 175, 154)
+            }
+            
+            .content-1 {
+                margin: 100px 0;
+            }
+            
+            .content-1 h1 {
+                text-align: center;
+                color: #5bb3a3;
+                text-transform: uppercase
+            }
+            
+            .content-1 p {
+                text-align: center;
+                margin: 20px 300px;
+                color: gray
+            }
+            
+            .content-2 {
+                margin: 100px 50px;
+            }
+            
+            div.section {
+                float: left;
+                margin: 20px 100px
+            }
+            
+            .content-2 .section h3 {
+                color: #5bb3a3;
+                text-align: center;
+                margin-top: 10px;
+                text-align: center
+            }
+            
+            .content-2 .section img {
+                margin: 10px 65px
+            }
+            
+            .content-2 .section p {
+                color: gray;
+                text-align: justify;
+                margin: 20px 100px
+            }
+            
+            .content-2 .section p {
+                text-align: center;
+                margin: 5px 0
+            }
+            
+            .content-3 {
+                margin: 400px auto;
+                position: relative;
+            }
+            
+            .content-3 h2 {
+                text-align: center;
+                color: #5bb3a3;
+                font-size: 35px;
+            }
+            
+            .content-3 form {
+                opacity: 30%;
+                position: absolute;
+                top: 50%;
+                left: 25%
+            }
+            
+            .content-3 form input {
+                margin: 60px 10px;
+                padding: 10px 30px;
+                font-size: 20px;
+                background-color: lightskyblue
+            }
+            
+            .content-3 form textarea {
+                position: absolute;
+                top: 80%;
+                left: 2%;
+                background-color: #5bb3a3;
+                font-size: 20px;
+                padding: 30px
+            }
+            
+            .content-4 {
+                margin: 500px 160px;
+                position: relative;
+            }
+            
+            div.img1 {
+                float: left;
+                margin: 30px 30px;
+                display: block
+            }
+            
+            div.img1 img {
+                filter: opacity(50%)
+            }
+            
+            div.img1 :hover {
+                filter: contrast(130%) brightness(90%);
+            }
+            
+            .para {
+                width: 39%;
+                height: 35%;
+                display: none;
+                color: white;
+                background-color: #5bb3a3;
+                position: absolute;
+                top: 157%;
+                box-shadow: #5bb3a3 1px 1px 25px
+            }
+            
+            .para h4 {
+                font-size: 25px;
+                margin-left: 10%
+            }
+            
+            .para p {
+                margin-left: 10%;
+                margin-top: 2%
+            }
+            
+            .para1 h4 {
+                font-size: 25px;
+                margin-left: 10%
+            }
+            
+            .para1 p {
+                margin-left: 10%;
+                color: rgb(77, 71, 71);
+                margin-top: 2%
+            }
+            
+            .para1 {
+                width: 39%;
+                height: 35%;
+                display: none;
+                color: white;
+                background-color: #5bb3a3;
+                position: absolute;
+                top: 57%;
+                box-shadow: #5bb3a3 1px 1px 25px
+            }
+            
+            .img1:hover .para {
+                display: block;
+                visibility: visible
+            }
+            
+            .img1:hover .para1 {
+                display: block;
+                visibility: visible
+            }
+            
+            footer {
+                position: relative;
+                margin-top: 200px;
+                background-color: #5bb3a3;
+                padding: 90px;
+            }
+            
+            div.twitter {
+                position: absolute;
+                padding: 10px;
+                top: -10%;
+                left: 20%;
+                border: solid 2px 2px #5bb3a3;
+                background-color: white;
+                box-shadow: 8px -8px 5px #67c0b0
+            }
+            
+            .drib {
+                position: absolute;
+                padding: 10px;
+                top: -10%;
+                left: 48%;
+                border: solid 2px 2px #5bb3a3;
+                background-color: white;
+                box-shadow: 8px -8px 5px #67c0b0
+            }
+            
+            .facebook {
+                position: absolute;
+                padding: 10px 20px;
+                top: -10%;
+                right: 20%;
+                /* border: solid 5px #5bb3a3; */
+                background-color: white;
+                box-shadow: 8px -8px 5px #67c0b0
+            }
+            
+            footer a:nth-of-type(1) {
+                position: absolute;
+                top: 60%;
+                left: 13%;
+                color: white;
+            }
+            
+            footer a:nth-of-type(2) {
+                position: absolute;
+                color: aliceblue;
+                top: 60%;
+                right: 13%
+            }
